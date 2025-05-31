@@ -9,7 +9,7 @@
         }
         .cab{
             background-color: rgb(236, 204, 61);
-            margin: 0%;
+            margin: auto;
             display: flex;
             justify-content: space-around;
             gap: 30px;
@@ -17,13 +17,10 @@
             margin-bottom: 30px;
         }
 
-        /* menu responsivo */
-        .menu-icon {
-         display: none;
-          /* escondido por padrão */
-           font-size: 28px;
-          cursor: pointer;
+        .bi bi-cart3{
+        margin-top: 50px;
         }
+
         .descrition-coxinha{
             margin:0;
             font-size: 10px;
