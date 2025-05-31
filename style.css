@@ -8,12 +8,13 @@
             margin: 0;
         }
         .cab{
-            background-color: rgb(238, 173, 75);
+            background-color: rgb(236, 204, 61);
             margin: 0%;
             display: flex;
             justify-content: space-around;
             gap: 30px;
             padding: 30px;
+            margin-bottom: 30px;
         }
 
         /* menu responsivo */
@@ -22,4 +23,28 @@
           /* escondido por padrão */
            font-size: 28px;
           cursor: pointer;
+        }
+        .descrition-coxinha{
+            margin:0;
+            font-size: 10px;
+            
+        }
+
+        .botoes{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .produtos{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .coxinha{
+            display: grid ;
+            
+        }
+
+        .pao-de-queijo{
+
         }

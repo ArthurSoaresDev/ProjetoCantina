@@ -14,47 +14,60 @@
       <img src="logoplanta.png" alt="logo" width="100" height="100" >
     </div>
 
+    <div id="cart" class="shopping-cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>
+    </div>
+
+
+    
+  </div>
+
     <div class="botoes">
       <a onclick="irParaDiv()"><button>Produtos</button></a>
       <a onclick="irParaDiv2()"><button>Portfolio</button></a>
       <a href="estoque.html"><button>Sobre</button></a>
     </div>
 
+<div class="produtos">
 
-
-    <div class="menu-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
-        viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-      </svg>
-    </div>
-
-    
-  </div>
-
-  <div class="conteudo">
-    <h2> Índice de Massa Corporal (IMC)</h2>
-    <p> O IMC serve para avaliar se uma pessoa está<br> com um peso adequado para a sua altura,<br> classificando-a como abaixo do peso,<br> peso normal, com sobrepeso ou obesa.<br> É um indicador que ajuda a identificar<br> possíveis problemas de saúde relacionados<br> ao peso, como risco aumentado de doenças<br> cardiovasculares e diabetes. 
-    </p>
-
-  </div>
-
-
-    <div class="IMC">
-
-    <label for="altura">Sua altura</label>
-    <input type="text" id="meuInput"> <br><br>
-    <label for="Peso">Seu Peso</label>
-    <input type="text" id="Peso"> <br><br>
-    <input type="submit" value="Calcular IMC" onclick="porcentagem()">
-   <p id="resultado"></p>
+    <div class="coxinha">
+        <img src="" alt="coxinha">
+        <p class="descrition-coxinha">Coxinha do mal</p>
+        <div class="counter-container">
+    <button onclick="decrease()">-</button>
+    <span id="counter">0</span>
+    <button onclick="increase()">+</button>
+</div>
 
     </div>
 
+    <div class="pao-de-queijo">
+        <img src="" alt="pão de queijo">
+        <p class="descrition-coxinha">pão de queijo mal</p>
+    </div>
+
+</div>
     <footer class="footer">
 
-        <p>Grupo@<br>Colaboração CIEE<br>Nome dos Alunos<br>Arthur</p>
+        
     </footer>
+    <script>
+        let count = 0;
+
+function increase() {
+    count++;
+    document.getElementById("counter").textContent = count;
+}
+
+function decrease() {
+    if (count > 0) {
+        count--;
+        document.getElementById("counter").textContent = count;
+    }
+}
+
+    </script>
 </body>
 </html>
