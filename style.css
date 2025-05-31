@@ -1,0 +1,25 @@
+ button{
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+       
+        body{
+            margin: 0;
+        }
+        .cab{
+            background-color: rgb(238, 173, 75);
+            margin: 0%;
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        /* menu responsivo */
+        .menu-icon {
+         display: none;
+          /* escondido por padrão */
+           font-size: 28px;
+          cursor: pointer;
+        }

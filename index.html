@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="cab">
+
+    <div class="logo">
+      <img src="logoplanta.png" alt="logo" width="100" height="100" >
+    </div>
+
+    <div class="botoes">
+      <a onclick="irParaDiv()"><button>Produtos</button></a>
+      <a onclick="irParaDiv2()"><button>Portfolio</button></a>
+      <a href="estoque.html"><button>Sobre</button></a>
+    </div>
+
+
+
+    <div class="menu-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+      </svg>
+    </div>
+
+    
+  </div>
+
+  <div class="conteudo">
+    <h2> Índice de Massa Corporal (IMC)</h2>
+    <p> O IMC serve para avaliar se uma pessoa está<br> com um peso adequado para a sua altura,<br> classificando-a como abaixo do peso,<br> peso normal, com sobrepeso ou obesa.<br> É um indicador que ajuda a identificar<br> possíveis problemas de saúde relacionados<br> ao peso, como risco aumentado de doenças<br> cardiovasculares e diabetes. 
+    </p>
+
+  </div>
+
+
+    <div class="IMC">
+
+    <label for="altura">Sua altura</label>
+    <input type="text" id="meuInput"> <br><br>
+    <label for="Peso">Seu Peso</label>
+    <input type="text" id="Peso"> <br><br>
+    <input type="submit" value="Calcular IMC" onclick="porcentagem()">
+   <p id="resultado"></p>
+
+    </div>
+
+    <footer class="footer">
+
+        <p>Grupo@<br>Colaboração CIEE<br>Nome dos Alunos<br>Arthur</p>
+    </footer>
+</body>
+</html>
